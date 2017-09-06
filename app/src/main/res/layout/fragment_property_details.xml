@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    android:id="@+id/content"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--<RelativeLayout-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_width="match_parent"-->
+    <!-->-->
+
+    <LinearLayout
+                 android:layout_marginTop="10dp"
+                 android:layout_marginLeft="12dp"
+                 android:layout_marginStart="12dp"
+                 android:layout_marginRight="12dp"
+                 android:layout_marginEnd="12dp"
+                 android:layout_alignParentTop="true"
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:paddingBottom="@dimen/btn_bottom_height"
+                 android:layout_height="wrap_content">
+
+        <include layout="@layout/property_header"/>
+
+        <LinearLayout
+            android:id="@+id/lyt_street"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/view_gap_space"
+            android:background="@drawable/back"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/icon_street_pin"
+                android:layout_margin="8dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txt_property_street"
+                android:text="Kropotkinskaya st1"
+                style="@style/Address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/lyt_rating_board"
+            android:visibility="gone"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/icon_black_star"
+                android:src="@drawable/icon_black_star"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="@string/overall_evaluation"
+                android:layout_centerVertical="true"
+                style="@style/MyTheme.TextBasic.Primary"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@+id/icon_black_star"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txt_overall_rating"
+                android:text="Good 86%"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                style="@style/MyTheme.TextBasic.Primary"
+                android:layout_width="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:id="@+id/lyt_ratings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_reviews"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_white_blue_border"
+            android:visibility="gone"
+            android:textColor="@color/checkable_active"
+            android:layout_width="match_parent"
+            android:text="@string/view_reviews_btn_text"
+            android:layout_height="@dimen/btn_bottom_height"/>
+
+        <FrameLayout
+            android:layout_marginTop="@dimen/view_gap_space"
+            android:layout_marginBottom="@dimen/view_gap_space"
+            android:id="@+id/fragment_map"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/lyt_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

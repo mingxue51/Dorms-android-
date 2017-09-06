@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_action">#7EB31F</color>
+    <color name="blue_action">#2B8DC6</color>
+    <color name="grey_checkable">#A1A1A1</color>
+    <color name="explore_date">@color/black</color>
+    <color name="explore_grey">#c4c4c4</color>
+    <color name="explore_background">#EEEEEE</color>
+    <color name="magnifier">#D3D3D3</color>
+    <color name="search_panel_background">#FAFAFA</color>
+
+    <color name="gray_order">#E6E8EB</color>
+
+    <color name="colorPrimary">#061E36</color>
+
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FEB30A</color>
+    <color name="colorFragmentSearch">#ffb400</color>
+
+    <color name="colorPrimaryTransparent">#E6061E36</color>
+
+
+    <color name="ratingEnabled">#cbe3fc</color>
+    <color name="ratingDisabled">#eeeeee</color>
+
+    <color name="tabSelectedTextColor">@color/blue_action</color>
+    <color name="tabNotSelectedTextColor">#134568</color>
+
+    <color name="toolbarSubtitleTextColor">#B5BCC3</color>
+    <color name="lineInFragmentSearch">#b07a00</color>
+
+    <color name="property_name_search_result">@color/white</color>
+    <color name="property_mark_search_result">@color/blue_action</color>
+    <color name="property_price_search_result">#CC082241</color>
+
+    <color name="drawer_header">#051e37</color>
+
+    <color name="chechable_element_border_color">#D2D2D2</color>
+    <color name="checkable_active">@color/blue_action</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="fab_search">#FEB30A</color>
+
+    <color name="white">#FFFFFF</color>
+    <!--<color name="white_transparent">#DCFFFFFF</color>-->
+    <color name="white_transparent">#d2ffffff</color>
+
+    <color name="black">#000000</color>
+
+    <color name="grey">#f7f7f7</color>
+    <color name="black_text">#333333</color>
+
+    <color name="grey_background">#f7f7f7</color>
+    <color name="grey_dark">#888888</color>
+
+
+    <color name="worker">#054078</color>
+    <color name="bord_grey">#555555</color>
+    <color name="red">#FF0000</color>
+
+    <color name="orange_unselected">#e6b023</color>
+    <color name="orange_selected">#e7b022</color>
+
+    <color name="green">#6aa308</color>
+    <color name="panel_header">#1b3558</color>
+
+    <color name="font_blue">#061e36</color>
+    <color name="font_blue_dark">#0c223f</color>
+    <color name="font_blue_light">#5497cc</color>
+
+    <color name="blue_light">#F0CFCFCF</color>
+    <color name="blue_divider">#14355e</color>
+    <color name="blue_divider_lighter">#07172e</color>
+    <color name="blue_unselected">#0c223f</color>
+    <color name="blue_selected">#142f53</color>
+    <color name="blue_unselected_overlay">#193356</color>
+
+    <color name="blue_overlay_gradient_from">#BF061D33</color>
+    <color name="blue_overlay_gradient_to">#0A061D33</color>
+
+    <color name="gray_light">#e3ddcf</color>
+    <color name="gray">#ffa4a4a4</color>
+
+    <color name="border_gray">@color/gray_light</color>
+
+    <color name="property_distance_text">@color/gray</color>
+    <!--    <color name="black">#ff333333</color>-->
+    <color name="property_lowest_price_text">@color/black</color>
+    <color name="property_reviews_count_text">@color/gray</color>
+    <color name="property_type_text">@color/grey</color>
+    <color name="cloud_grey">#ffebebeb</color>
+    <color name="orange">#ffff6600</color>
+    <color name="highlighted_text">@color/orange</color>
+    <color name="light_gray">#fff5f5f5</color>
+    <color name="navigation_drawer_background">@color/blue_unselected</color>
+    <color name="dark_gray">#ff777777</color>
+    <color name="navigation_drawer_item_text">@color/white</color>
+
+    <color name="property_image_background">#ffe2e2e2</color>
+    <color name="black_full">#ff323232</color>
+    <color name="text_block_background">@color/light_gray</color>
+    <color name="rainy_grey">#ffeeeeee</color>
+    <color name="pale_grey">#ffdcdcdc</color>
+    <color name="medium_gray">#ffcccccc</color>
+    <color name="window_background">@color/white</color>
+
+    <color name="blue_transparency">#ef224586</color>
+    <color name="blue">#ff224685</color>
+    <color name="call_to_action_button_disabled">@color/dark_gray</color>
+    <color name="call_to_action_button_normal_solid">@color/blue</color>
+    <color name="call_to_action_button_normal">@color/blue_transparency</color>
+    <color name="call_to_action_button_pressed">@color/blue</color>
+    <color name="calendar_background">@color/white</color>
+    <color name="dialog_background">@color/white</color>
+    <color name="hostelworld_blue">@color/blue</color>
+
+    <color name="yellow_transparent">#E6FBFF9E</color>
+    <color name="medium_grey">#ffd3d3d3</color>
+    <color name="yellow">#F0F6C658</color>
+    <color name="yellow_divider">#FFe7ae16</color>
+    <color name="yellow_divider_lighter">#FFf6d37f</color>
+
+    <color name="black_overlay">#00000000</color>
+    <color name="blue_overlay">#C8564BBF</color>
+    <color name="background_travel_modes_info">#E5FFFFFF</color>
+    <color name="background_total_order_summary">#f0f2f4</color>
+    <color name="background_property_type">#081629</color>
+    <color name="background_faceboook">#3b5998</color>
+    <color name="background_google_plus">#DC4A3D</color>
+    <color name="stars">#fde16d</color>
+    <color name="gray_transparent">#70777777</color>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:paddingBottom="@dimen/btn_bottom_height"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:paddingTop="12dp"
+        android:id="@+id/txt_no_reviews"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        style="@style/MyTheme.TextBasic.Primary"
+        android:text="@string/no_result_property_reviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_reviews"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

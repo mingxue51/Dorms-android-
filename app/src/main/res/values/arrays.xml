@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reviews_create_are_you_entries">
+        <item>male</item>
+        <item>female</item>
+        <item>couple</item>
+        <item>allmalegroup</item>
+        <item>allfemalegroup</item>
+        <item>mixedgroup</item>
+    </string-array>
+    <string-array name="reviews_create_trip_type_entries">
+        <item>collegebreak</item>
+        <item>weekendaway</item>
+        <item>gapyear</item>
+        <item>rtwtrip</item>
+        <item>regularvacation</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="settle_currencies">
+        <item>US$</item>
+        <item>€</item>
+        <item>£</item>
+    </string-array>
+   <!-- <string-array name="yes_no">
+        <item>@string/yes</item>
+        <item>@string/no</item>
+    </string-array>-->
+</resources>

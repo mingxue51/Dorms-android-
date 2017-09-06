@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_line">1dip</dimen>
+    <dimen name="btn_stroke">1dip</dimen>
+    <dimen name="btn_padding">2dip</dimen>
+    <dimen name="btn_padding_side">7dip</dimen>
+    <dimen name="btn_corner">2dip</dimen>
+    <dimen name="area_corner">4dip</dimen>
+    <dimen name="dlg_corner">8dip</dimen>
+    <dimen name="item_corner">4dip</dimen>
+    <dimen name="marker_corner">5dip</dimen>
+
+
+    <dimen name="label_height">25dip</dimen>
+    <dimen name="label_weight">25dip</dimen>
+
+
+    <dimen name="map_marker_font_size">14.0sp</dimen>
+    <dimen name="map_marker_font_size_l">14.0sp</dimen>
+    <dimen name="map_marker_font_size_m">12.0sp</dimen>
+    <dimen name="map_marker_font_size_s">10.0sp</dimen>
+    <dimen name="map_marker_font_size_xs">8.0sp</dimen>
+    <dimen name="map_marker_height">50.0dip</dimen>
+    <dimen name="map_marker_padding">10.0dip</dimen>
+    <dimen name="map_marker_text_x">23.0dip</dimen>
+    <dimen name="map_marker_text_y">25.0dip</dimen>
+    <dimen name="map_marker_width">45.0dip</dimen>
+
+    <dimen name="property_gallery_height">240.0dip</dimen>
+    <dimen name="property_detail_info_icon_width">25.0dip</dimen>
+    <dimen name="property_detail_map_height">180.0dip</dimen>
+
+    <dimen name="property_detail_padding">10.0dip</dimen>
+    <dimen name="property_detail_paragraph_spacing">18.0dip</dimen>
+    <dimen name="property_detail_heading_padding_bottom">5.0dip</dimen>
+    <dimen name="book_button_height">50.0dip</dimen>
+
+    <dimen name="actionbar_search_textsize_small">14.0sp</dimen>
+    <dimen name="actionbar_height">10dp</dimen>
+
+    /////////////////////////////////////////////////////////////
+
+    <!--<dimen name="txt_large">20sp</dimen>
+    <dimen name="txt_medium">14sp</dimen>
+    <dimen name="txt_size_14">14sp</dimen>
+    <dimen name="txt_small">12sp</dimen>-->
+
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+
+    <dimen name="height_30">30dp</dimen>
+    <dimen name="height_40">40dp</dimen>
+
+
+    <dimen name="padding_screen_left">5dp</dimen>
+    <dimen name="padding_screen_right">5dp</dimen>
+    <dimen name="padding_screen_top">5dp</dimen>
+    <dimen name="padding_screen_buttom">5dp</dimen>
+
+
+    <dimen name="pnl_corner">0dip</dimen>
+    <!--<dimen name="btn_corner">3dip</dimen>-->
+
+    <dimen name="btn_height_40">40dip</dimen>
+    <dimen name="btn_height_35">35dip</dimen>
+
+    <dimen name="pnl_header_height">30dip</dimen>
+
+
+    <dimen name="list_divider_height">1.0dip</dimen>
+    <dimen name="booking_summary_padding_bottom">50.0dip</dimen>
+
+    <dimen name="property_detail_facilities_more_width">45.0dip</dimen>
+    <dimen name="property_detail_facilities_height">55.0dip</dimen>
+    <dimen name="property_detail_facilities_right_margin">41.0dip</dimen>
+
+    <dimen name="map_dot_marker_size">40dp</dimen>
+    <!--<dimen name="facility_icon_padding_left">10.0dip</dimen>
+    <dimen name="facility_icon_padding_right">9.0dip</dimen>-->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <dimen name="date_width">10dp</dimen>
+    <dimen name="date_height">70dp</dimen>
+    <dimen name="suggestion_list_item_height">350dp</dimen>
+
+    <!--<integer name="num_cols">1</integer>-->
+
+    <!--<dimen name="activity_horizontal_margin">16dp</dimen>-->
+    <!--<dimen name="activity_vertical_margin">16dp</dimen>-->
+
+    <dimen name="map_height">120dp</dimen>
+    <dimen name="paralax_offset">125dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="road_info_panel_height">25dp</dimen>
+    <dimen name="margin_bottom_filters">40dp</dimen>
+    <dimen name="background_explore_height">350dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+
+    <dimen name="drawer_header_height">80dp</dimen>
+    <dimen name="drawer_padding_top">10dp</dimen>
+    <dimen name="drawer_layout_elevation">7dp</dimen>
+    <dimen name="drawer_header_text_size">14sp</dimen>
+    <dimen name="drawer_icon_size">64dp</dimen>
+    <dimen name="drawer_icon_elevation">4dp</dimen>
+    <dimen name="drawer_icon_border">0dp</dimen>
+    <dimen name="drawer_header_margin_left">16dp</dimen>
+    <dimen name="drawer_header_text_margin_top">5dp</dimen>
+    <dimen name="drawer_icon_margin">16dp</dimen>
+    <dimen name="price_type_size">12sp</dimen>
+    <dimen name="price_search_result_size">15sp</dimen>
+    <dimen name="btn_bottom_height">44dp</dimen>
+    <dimen name="btn_double_bottom_height">90dp</dimen>
+    <dimen name="standard_space">8dp</dimen>
+    <dimen name="small_view_gap_space">6dp</dimen>
+    <dimen name="tiny_view_gap_space">5dp</dimen>
+    <dimen name="view_gap_space">12dp</dimen>
+    <dimen name="large_view_gap_space">24dp</dimen>
+    <dimen name="credit_card_width">56dp</dimen>
+    <dimen name="left_margin_credit_card">8dp</dimen>
+    <dimen name="btn_action_height">43dp</dimen>
+    <dimen name="contact_us_text_size">16sp</dimen>
+    <dimen name="padding_left_contact_text">15dp</dimen>
+    <dimen name="padding_bottom_contact_text">20dp</dimen>
+    <dimen name="text_item_padding_right">25dp</dimen>
+    <dimen name="text_size_item">15sp</dimen>
+    <dimen name="icon_item_right_padding">18dp</dimen>
+    <dimen name="txt_drawer_take">20sp</dimen>
+    <dimen name="icon_drawer_direct">24dp</dimen>
+    <dimen name="btn_mail_width">62dp</dimen>
+    <dimen name="bottom_margin_gap">58dp</dimen>
+
+    <dimen name="avatar_image_size">70dp</dimen>
+    <dimen name="padding_myaccount_text">15dp</dimen>
+    <dimen name="padding_top_myaccount_text">15dp</dimen>
+    <dimen name="txt_myaccount_size">16sp</dimen>
+
+    <dimen name="text_size_settings">14sp</dimen>
+    <dimen name="padding_field_settings">10dp</dimen>
+    <dimen name="settings_marfin_left">15dp</dimen>
+    <dimen name="layout_settings_margin">25dp</dimen>
+
+    <dimen name="password_left_margin">22dp</dimen>
+    <dimen name="name_left_margin">20dp</dimen>
+    <dimen name="margin_top_layout">25dp</dimen>
+    <dimen name="text_marginTop_recover">75dp</dimen>
+    <dimen name="button_margin_top">50dp</dimen>
+    <dimen name="margin_btn_login">15dp</dimen>
+    <dimen name="price_board_property_item_height">40dp</dimen>
+    <dimen name="nano_view_gap_space">3dp</dimen>
+
+    <dimen name="txt_review_padding">50dp</dimen>
+    <dimen name="padding_field_review">10dp</dimen>
+
+    <dimen name="dialog_message_text_size">18sp</dimen>
+    <dimen name="margin_buttom_dialog_ok_btn">10dp</dimen>
+    <dimen name="padding_currency_action_bar_icon">10dp</dimen>
+    <dimen name="txt_terms_margin_top">20dp</dimen>
+    <dimen name="btn_small_height">35dp</dimen>
+    <dimen name="logo_margin_start">5dp</dimen>
+    <dimen name="drawer_header_margin_top">15dp</dimen>
+    <dimen name="logo_width">65dp</dimen>
+    <dimen name="logo_margin_bottom">10dp</dimen>
+
+    <dimen name="title_faq_text_size">18sp</dimen>
+    <dimen name="content_faq_text_size">14sp</dimen>
+    <dimen name="margin_faq_title">10dp</dimen>
+    <dimen name="margin_content_faq">5dp</dimen>
+</resources>

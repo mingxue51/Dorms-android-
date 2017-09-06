@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_property"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/tiny_view_gap_space"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="0dp">
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_property_preview"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/view_gap_space"
+            android:layout_marginLeft="@dimen/view_gap_space"
+            android:layout_marginStart="@dimen/view_gap_space"
+            android:layout_marginEnd="@dimen/view_gap_space"
+            android:layout_marginRight="@dimen/view_gap_space"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                layout="@layout/property_header"/>
+
+            <TextView
+                android:id="@+id/txt_reference_number"
+                android:layout_marginTop="@dimen/view_gap_space"
+                style="@style/MyTheme.TextBasic.Gray"
+                android:textSize="14sp"
+                android:text="@string/reference_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/view_gap_space"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/icon_moon"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingRight="0dp"
+                    android:paddingEnd="0dp"
+                    style="@style/MyTheme.TextBasic.Primary"
+                    android:id="@+id/txt_nights"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:paddingLeft="20dp"
+                    android:paddingStart="20dp"
+                    android:paddingRight="0dp"
+                    android:paddingEnd="0dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/icon_persons"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp"
+                    android:layout_gravity="center_vertical"
+                    style="@style/MyTheme.TextBasic.Primary"
+                    android:id="@+id/txt_guests"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_check_in_on"
+                android:layout_marginTop="@dimen/view_gap_space"
+                style="@style/MyTheme.TextBasic.Primary"
+                android:textSize="14sp"
+                android:text="@string/check_in_on"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txt_phone_number"
+                android:layout_marginTop="@dimen/view_gap_space"
+                style="@style/MyTheme.TextBasic.Primary"
+                android:textSize="14sp"
+                android:text="@string/property_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/tiny_view_gap_space"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:background="@color/background_total_order_summary"
+                android:layout_height="wrap_content">
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:columnCount="2"
+                    android:rowCount="3"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_gravity="start|fill"
+                        android:layout_width="wrap_content"
+                        style="@style/MyTheme.TextBasic.Primary"
+                        android:text="@string/already_paid"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/txt_already_paid"
+                        android:layout_gravity="end|clip_horizontal"
+                        android:text="10$"
+                        style="@style/MyTheme.TextBasic.Primary"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:paddingTop="@dimen/standard_space"
+                        android:layout_gravity="start|fill"
+                        android:layout_width="wrap_content"
+                        style="@style/MyTheme.TextBasic.Primary"
+                        android:text="@string/amount"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/txt_amount"
+                        android:text="3$"
+                        style="@style/MyTheme.TextBasic.Primary"
+                        android:paddingTop="@dimen/standard_space"
+                        android:layout_gravity="end|clip_horizontal"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:paddingTop="@dimen/standard_space"
+                        android:layout_gravity="start|fill"
+                        android:layout_width="wrap_content"
+                        android:text="@string/total_semi"
+                        style="@style/MyTheme.TextBasic.Primary"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/txt_total"
+                        android:text="15$"
+                        android:paddingTop="@dimen/standard_space"
+                        android:layout_gravity="end|clip_horizontal"
+                        style="@style/MyTheme.TextBasic.Primary"
+                        android:layout_height="wrap_content"/>
+                </GridLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/view_gap_space"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_marginRight="@dimen/tiny_view_gap_space"
+                    android:layout_marginEnd="@dimen/tiny_view_gap_space"
+                    android:id="@+id/btn_mail"
+                    android:src="@drawable/icon_mail"
+                    style="@style/BlueButton"
+                    android:layout_width="@dimen/btn_mail_width"
+                    android:layout_height="@dimen/btn_action_height"
+                    />
+
+                <Button
+                    android:id="@+id/btn_action"
+                    style="@style/GreenButton"
+                    android:textAllCaps="true"
+                    android:text="@string/directions"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/btn_action_height"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="bottom"
+    android:id="@+id/lyt_directions"
+    android:layout_gravity="bottom"
+    android:background="@color/grey_checkable"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+        <ImageView
+            android:layout_width="@dimen/icon_drawer_direct"
+            android:layout_height="@dimen/icon_drawer_direct"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="@dimen/icon_item_right_padding"
+            android:layout_marginStart="@dimen/icon_item_right_padding" />
+        <TextView
+            android:id="@+id/txt_drawer_take"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/txt_drawer_take"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_item"
+            android:text="@string/take_me_to_my_hostel"
+            android:layout_marginLeft="@dimen/text_item_padding_right"
+            android:layout_marginStart="@dimen/text_item_padding_right" />
+
+</LinearLayout>

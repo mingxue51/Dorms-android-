@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <TextView
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+            android:id="@+id/txt_by"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="loading..."/>
+
+        <TextView
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+            android:id="@+id/txt_where"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="loading..."/>
+
+        <FrameLayout
+            android:id="@+id/fragment_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_routes_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_upcoming_properties"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</RelativeLayout>

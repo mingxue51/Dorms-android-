@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:src="@drawable/icon_user_profile_blank"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_author_name"
+                android:text="Michael"
+                style="@style/MyTheme.TextBasic.Primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txt_date"
+                android:text="12 september 2015"
+                style="@style/MyTheme.TextBasic.Gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_overall_rating"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:text="85%"
+            style="@style/PropertyReviewOverallRating"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="8dp"
+        style="@style/MyTheme.TextBasic.Primary"
+        android:id="@+id/txt_review_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_marginTop="8dp"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/gray_order"/>
+</LinearLayout>

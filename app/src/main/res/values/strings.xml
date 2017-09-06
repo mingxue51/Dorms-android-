@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="facebook_app_id">489116367931340</string>
+    <string name="google_app_id">AIzaSyARyxwNO-bCyN4368vz1AYQn6V4uZxGaUc</string>
+    <string name="facebook_secret">566fd901e05da9637277eecf5774bc15</string>
+    <string name="analytics_id">UA-38262571-2</string>
+
+    <string name="next">NEXT</string>
+
+    <string name="btn_ok">OK</string>
+
+    <string name="error_request">Error in the POST request. The server returned wrong data.</string>
+
+    <string name="nationality">Nationality</string>
+
+    <string name="no_properties_found">Sorry, there is no availability</string>
+    <string name="unavailable_location">Sorry, your current location could not be determined</string>
+
+    <string name="explore">Explore</string>
+    <string name="my_account">My Account</string>
+    <string name="my_bookings">My Bookings</string>
+    <string name="my_reviews">My Reviews</string>
+    <string name="my_favorites">My Favorites</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="tac">Terms and conditions</string>
+    <string name="privacy">Privacy</string>
+    <string name="site_map">Site map</string>
+    <string name="drawer_sign_in">Sign in</string>
+    <string name="drawer_privacy">Privacy</string>
+    <string name="take_me_to_my_hostel">Take me To My Hostel</string>
+
+    <string name="sign_in">SIGN IN</string>
+
+    <string name="sign_up">Sign up</string>
+    <string name="sign_out">Sign out</string>
+    <string name="ok">ok</string>
+
+    <string name="free">Free</string>
+
+    <string name="booking_details">Booking Details</string>
+    <string name="personal_information">Personal information</string>
+
+    <string name="please_sign_in">Please sign in</string>
+    <string name="no_result_property_reviews">There are no reviews for this property</string>
+
+    <string name="apply">APPLY</string>
+    <string name="search_welcome">Where do you want to go?</string>
+
+    <string name="atmosphere">Atmosphere</string>
+    <string name="staff">Staff</string>
+    <string name="cleanliness">Cleanliness</string>
+    <string name="facilities">Facilities</string>
+    <string name="safety">Safety</string>
+    <string name="location">Location</string>
+
+    <string name="dorms">Dorms</string>
+    <string name="private_rooms">Private rooms</string>
+
+    <string name="where_do_you_want_to_go">Where do you want to go?</string>
+
+    <string name="ui_facilities">Facilities</string>
+    <string name="ui_property_details_information">Property Information</string>
+    <string name="ui_property_details_districts">Districts</string>
+    <string name="ui_property_details_directions">Directions</string>
+    <string name="ui_property_details_landmarks">Landmarks</string>
+    <string name="ui_property_details_facilities">Facilities</string>
+    <string name="ui_property_details_property_info">Property Information</string>
+    <string name="ui_property_details_purchasable_extras">Purchasable Extras</string>
+    <string name="ui_property_details_check_in_out_details">Check-In/Out Details</string>
+    <string name="ui_property_details_cancellation_policy">Cancellation Policy</string>
+    <string name="ui_property_details_important_info">Important Information</string>
+
+    <string name="scan_credit_card">SCAN CREDIT CARD</string>
+    <string name="confirm">Confirm</string>
+    <string name="or">or</string>
+
+    <string name="number_night_selected">%1$d night selected</string>
+    <string name="number_nights_selected">%1$d nights selected</string>
+
+    <string name="guests_one">%d guest</string>
+    <string name="guests_other">%d guests</string>
+
+    <string name="nights_one">%d night</string>
+    <string name="nights_other">%d nights</string>
+
+    <string name="overall_reviews_one">(%d review)</string>
+    <string name="overall_reviews_other">(%d reviews)</string>
+
+    <string name="rooms_one">%d Room</string>
+    <string name="rooms_other">%d Rooms</string>
+
+    <string name="add_room">Add Room</string>
+    <string name="add_bed">Add Bed</string>
+    <string name="select_dates">Select Dates</string>
+
+    <string name="select_checkin">Select your check-in day</string>
+    <string name="select_checkout">Select your check-out day</string>
+
+    <string name="no_booking_fee">No Booking Fee:</string>
+    <string name="total_to_be_paid_now">Total to be paid now:</string>
+    <string name="total_to_be_paid">Total:</string>
+
+    <string name="current_location">Current location</string>
+
+    <string name="city">City</string>
+    <string name="district">District</string>
+    <string name="landmark">Landmark</string>
+    <string name="property">Property</string>
+    <string name="home">Home</string>
+
+    <!-- review dialog -->
+    <string name="leave_review">LEAVE REVIEW</string>
+    <string name="date_stay">The date of your last stay at this location:</string>
+    <string name="your_reviews_on">Your reviews on: </string>
+    <string name="leave_your_review">Leave your review</string>
+
+    <!-- credit card -->
+    <string name="credit_card_number_hint">0000 0000 0000 0000</string>
+    <string name="credit_card_cardholder_name_hint">CARDHOLDER NAME</string>
+    <string name="non_refund">* By clicking on the confirmation button below, you accept the terms and conditions and authorise the billing of a non-refundable fee of:</string>
+
+    <string name="app_name">Dorms.com - Hostels</string>
+
+    <string name="email_hint">Email</string>
+    <string name="method_driving">driving</string>
+    <string name="method_walking">walking</string>
+    <string name="method_bicycling">bicycling</string>
+    <string name="method_transit">transit</string>
+    <string name="checkin">CHECK IN</string>
+    <string name="checkout">CHECK OUT</string>
+
+    <string name="search">SEARCH HOSTELS</string>
+    <string name="here_and_tonight"><![CDATA[HERE & TONIGHT]]></string>
+    <string name="list">LIST</string>
+    <string name="map">MAP</string>
+    <string name="book_now">BOOK NOW</string>
+    <string name="sort_method_location">Best Location</string>
+    <string name="sort_method_rating">Best Rating</string>
+    <string name="sort_method_price">Best Price</string>
+    <string name="sort_method_safe">Safest</string>
+    <string name="sort_method_name">Hostel Name</string>
+    <string name="title_sort">Sort Hostels</string>
+    <string name="title_currency">Currency</string>
+
+    <string name="overall_evaluation">Overall evaluation</string>
+    <string name="suggestion_dates">DATES</string>
+    <string name="check_in_summary">Check In: %s</string>
+    <string name="check_out_summary">Check Out: %s</string>
+    <string name="number_of_nights_summary">Number Of Nights: %s</string>
+    <string name="total_order_summary">Total:</string>
+    <string name="deposit_to_be_paid_now">Deposit to be paid now (%s%%):</string>
+    <string name="modify_booking">MODIFY BOOKING</string>
+    <string name="amount_due_upon_arrival">%s is the total amount due upon arrival</string>
+    <string name="title_booking_details">Booking Details</string>
+    <string name="save_your_time_suggestion">Save your time and sign in with:</string>
+    <string name="user_domain_details_suggestion">also, you can use Domain.com details</string>
+    <string name="skip_this_step">SKIP THIS STEP</string>
+    <string name="skip_step_suggestion">or just skip this step to process without authorization</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="fill_suggestion">or fill the fields below</string>
+    <string name="card_type">Card Type</string>
+    <string name="cardholder_name">Cardholder Name</string>
+    <string name="card_number">Card Number</string>
+    <string name="expire_month">Expire Month(MM)</string>
+    <string name="expire_year">Expire Year(YY)</string>
+    <string name="security_code">Security Code</string>
+    <string name="payment">Secured Payment</string>
+    <string name="confirm_up">CONFIRM</string>
+
+    <string name="mastercard">Mastercard</string>
+    <string name="visa">Visa</string>
+    <string name="america_express">American Express</string>
+    <string name="jcb">JCB</string>
+    <string name="field_is_required">field is required</string>
+    <string name="invalid_email">invalid email</string>
+    <string name="credit_card_length_message">number must contains 16 digits</string>
+    <string name="invalid_month">invalid month</string>
+    <string name="invalid_year">invalid year</string>
+    <string name="security_code_error">Only digits</string>
+    <string name="check_in_time">Check in time:</string>
+    <string name="your_booking_confirmed">Your booking has been confirmed</string>
+    <string name="done">DONE</string>
+    <string name="thank_you">Thank you for booking with us. You will receive an email shortly with all the booking information. Please check your spam/junk inbox is well if you don’t receive within five minutes.</string>
+    <string name="see_directions">SEE DIRECTIONS TO PROPERTY</string>
+    <string name="direction_suggestion">You can always see directions in "My Bookings" section</string>
+    <string name="view_reviews_btn_text">VIEW ALL %S REVIEWS</string>
+    <string name="bookings_new">UPCOMING</string>
+    <string name="bookings_past">PAST</string>
+    <string name="already_paid">Already paid:</string>
+    <string name="amount">Amount:</string>
+    <string name="check_in_on">Check In on: %s</string>
+    <string name="total_semi">Total:</string>
+    <string name="directions">Directions</string>
+    <string name="property_phone_number">Phone Number: %s</string>
+    <string name="filters">Filters</string>
+    <string name="room_types">ROOM TYPES</string>
+    <string name="property_types">PROPERTY TYPES</string>
+    <string name="property_facilities">FACILITIES FILTER BY</string>
+    <string name="sort">SORT</string>
+    <string name="filters_up">FILTERS</string>
+    <string name="reference_number">Reference number: %s</string>
+    <string name="price_range">PRICE RANGE</string>
+    <string name="drawer_sign_out">Sign Out</string>
+    <string name="logo">Dorms.com</string>
+
+    <!-- String for Contact Us Fragment layout -->
+    <string name="contact_email">Your email</string>
+    <string name="contact_name">Name</string>
+    <string name="contact_subject">Subject</string>
+    <string name="contact_message">Your message</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="faq_articles">Help</string>
+    <string name="send">SEND</string>
+    <string name="contact_us_finish_message">Message has been sent successfully to us</string>
+
+    <string name="btn_account_save_text">SAVE CHANGES</string>
+    <string name="btn_account_change_text">CHANGE PASSWORD</string>
+    <string name="btn_account_delete_text">DELETE ACCOUNT</string>
+    <string name="gender_account_male">Male</string>
+    <string name="gender_account_female">Female</string>
+
+    <string name="invalid_credit_card_number">invalid number</string>
+    <string name="required">Required</string>
+    <string name="txt_temp_password">********</string>
+    <string name="your_email">Your email</string>
+    <string name="text_recover">Enter your email adress and we\'ll help you reset your password</string>
+    <string name="recover_email">recover email</string>
+    <string name="recover_password">Password Recovery</string>
+    <string name="error_equals_passwords">Passwords do not match!</string>
+    <string name="error_length_password">min length > 8</string>
+
+    <string-array name="gender">
+        <item>@string/gender_account_male</item>
+        <item>@string/gender_account_female</item>
+    </string-array>
+
+    <string name="txt_language">Language</string>
+    <string name="txt_currency">Currency</string>
+    <string name="notification">Notifications</string>
+    <string name="language_settings">English</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="txt_miles">Miles</string>
+    <string name="txt_distance">Distance</string>
+    <string name="password_not_equals">Password not equals</string>
+    <string name="password_changed">Password changed</string>
+    <string name="profile_updated">Profile updated</string>
+    <string name="no_user_reviews">You didn\'t write any review</string>
+    <string name="value">value</string>
+
+    <string name="forgot_password">Forgot password?</string>
+    <string name="register">register</string>
+
+    <string name="check_availability">check availability</string>
+    <string name="booking_in_3_steps">book in 3 steps</string>
+
+    <string name="txt_title_review">The last date of your stay at this location:</string>
+    <string name="header_review">rate your experience</string>
+    <string name="value_txt">Value</string>
+    <string name="hint_review_field">Review</string>
+    <string name="submit_review">submit review</string>
+    <string name="title_review">Title</string>
+
+    <string name="message_no_rooms_added">Please add at least one guest \n to your selection</string>
+    <string name="something_went_wrong">Sorry, something went wrong</string>
+    <string name="check_internet_connection">Please check internet connection</string>
+    <string name="terms">Terms</string>
+    <string name="terms_and_conditions">Terms And Conditions</string>
+    <string name="free_facility_tag">free</string>
+    <string name="google_auth_error">Sorry, can\'t login via g+</string>
+    <string name="sign_in_with_facebook">sign in with facebook</string>
+    <string name="sign_in_with_google">sign in with google</string>
+    <string name="invalid_login">Invalid login or password</string>
+    <string name="no_internet_connection">Network error.\nPlease check your internet connection and try again</string>
+    <string name="location_permission_explanation"></string>
+     <string name="text_terms_payment">By pressing on the confirmation button below, you accept the
+        <b><u>terms and conditions</u></b> and authorize the billing of a non-refundable fee of:</string>
+    <string name="thanks_for_feedback_message">Thank you for your feedback!</string>
+    <string name="filter_minimum">min: %s</string>
+    <string name="filter_maximum">max: %s</string>
+    <string name="dorms_price_description">Price per guest</string>
+    <string name="mobile_number_suggestion">Country code, Area code (without first 0) and mobile number; no spaces, brackets or dashes. \nUK Example: 447743789378</string>
+    <string name="street_view_not_available">Sorry, street view \n not available for this location</string>
+    <string name="select_card_type">Select card type</string>
+    <string name="Gender">Gender</string>
+    <string name="hostels_worldwide">30.000 Hostels Worldwide</string>
+    <string name="add_to_favourite">add favorite</string>
+    <string name="cancel">cancel</string>
+    <string name="hint_note">Note</string>
+    <string name="delete">delete</string>
+    <string name="save">save</string>
+    <string name="favourite_deleted_message">Favourite deleted</string>
+    <string name="favorite_updated_message">Favorite updated</string>
+    <string name="favorite_added_message">Favorite added</string>
+    <string name="modify">modify</string>
+    <string name="book">book</string>
+    <string name="type_to_search">Type to search</string>
+    <string formatted="false" name="search_found_message">found %s articles that contain %s</string>
+</resources>

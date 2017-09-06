@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:background="@color/explore_background"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+    <TextView
+        android:paddingTop="@dimen/view_gap_space"
+        android:paddingBottom="@dimen/view_gap_space"
+        android:gravity="center"
+        style="@style/MyTheme.TextBasic.Gray"
+        android:layout_width="match_parent"
+        android:text="@string/save_your_time_suggestion"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_facebook"
+        android:paddingTop="@dimen/view_gap_space"
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/background_faceboook"
+        android:layout_height="42dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/view_gap_space"
+                android:layout_marginStart="@dimen/view_gap_space"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:src="@drawable/icon_facebook"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                style="@style/MyTheme.TextBasic.White"
+                android:textAllCaps="true"
+                android:text="facebook"
+                />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_google"
+            android:layout_marginTop="@dimen/view_gap_space"
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="@color/background_google_plus"
+            android:layout_height="42dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginLeft="@dimen/view_gap_space"
+                    android:layout_marginStart="@dimen/view_gap_space"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/icon_googleplus"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textAllCaps="true"
+                    style="@style/MyTheme.TextBasic.White"
+                    android:text="google"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    <TextView
+        android:paddingTop="@dimen/view_gap_space"
+        android:gravity="center"
+        style="@style/MyTheme.TextBasic.Gray"
+        android:layout_width="match_parent"
+        android:text="@string/user_domain_details_suggestion"
+        android:layout_height="wrap_content"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txt_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyTheme.TextBasic.Primary.NoSuggestions"
+            android:hint="@string/email"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txt_password"
+            style="@style/MyTheme.TextBasic.Primary.NoSuggestions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="@dimen/view_gap_space"
+        android:id="@+id/btn_sign_in"
+        android:layout_alignParentBottom="true"
+        style="@style/GreenButton"
+        android:text="@string/sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_above="@+id/btn_skip_step"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        style="@style/MyTheme.TextBasic.Gray"
+        android:text="@string/skip_step_suggestion"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="@dimen/view_gap_space"
+        android:layout_marginBottom="@dimen/view_gap_space"
+        android:id="@+id/btn_skip_step"
+        android:layout_alignParentBottom="true"
+        style="@style/WhiteButton"
+        android:text="@string/skip_this_step"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        />
+
+</RelativeLayout>

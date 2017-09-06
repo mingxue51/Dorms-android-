@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/gray_order"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/RecoverUxTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/text_recover"
+        android:textSize="@dimen/text_size_item"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/recovery_password_message" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_marginTop_recover"
+        android:padding="@dimen/padding_top_myaccount_text"
+        android:textSize="@dimen/text_size_item"
+        android:textColor="@color/colorPrimary"
+        android:inputType="textEmailAddress"
+        android:background="@color/white"
+        android:hint="@string/your_email"
+        android:layout_below="@+id/recovery_password_message"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/email_recover" />
+
+    <Button
+        style="@style/GreenButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:layout_below="@+id/email_recover"
+        android:layout_marginLeft="@dimen/padding_myaccount_text"
+        android:layout_marginStart="@dimen/padding_myaccount_text"
+        android:layout_marginRight="@dimen/padding_myaccount_text"
+        android:layout_marginEnd="@dimen/padding_myaccount_text"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_size_item"
+        android:text="@string/recover_email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/btn_recover"/>
+
+</RelativeLayout>

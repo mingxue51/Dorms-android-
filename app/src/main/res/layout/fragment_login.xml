@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:background="@color/explore_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"/>
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_marginTop="150dp"
+                  android:paddingLeft="@dimen/activity_horizontal_margin"
+                  android:paddingRight="@dimen/activity_horizontal_margin"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/linearLayout2">
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/card_search"
+            android:background="@color/search_panel_background"
+            >
+
+            <LinearLayout
+                android:padding="@dimen/view_gap_space"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/txt_email"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/MyTheme.TextBasic.Primary.NoSuggestions"
+                        android:hint="@string/email"
+                        />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/txt_password"
+                        style="@style/MyTheme.TextBasic.Primary.NoSuggestions"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/password"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:layout_marginTop="@dimen/view_gap_space"
+                    android:id="@+id/btn_sign_in"
+                    style="@style/GreenButton"
+                    android:text="@string/sign_in"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    />
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/margin_btn_login"
+                    android:layout_marginRight="@dimen/margin_btn_login"
+                    android:layout_marginLeft="@dimen/margin_btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimary"
+                        android:text="@string/forgot_password"
+                        android:id="@+id/btn_forgot_password"/>
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:gravity="end"
+                        android:layout_weight="1"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimary"
+                        android:text="@string/register"
+                        android:id="@+id/btn_register"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:paddingTop="@dimen/view_gap_space"
+            android:gravity="center"
+            style="@style/MyTheme.TextBasic.Gray"
+            android:layout_width="match_parent"
+            android:text="@string/or"
+            android:layout_height="wrap_content"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_facebook"
+            android:layout_marginTop="@dimen/view_gap_space"
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="@color/background_faceboook"
+            android:layout_height="42dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginLeft="@dimen/view_gap_space"
+                    android:layout_marginStart="@dimen/view_gap_space"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/icon_facebook"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textAllCaps="true"
+                    style="@style/MyTheme.TextBasic.White"
+                    android:text="@string/sign_in_with_facebook"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_google"
+            android:layout_marginTop="@dimen/view_gap_space"
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="@color/background_google_plus"
+            android:layout_height="42dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginLeft="@dimen/view_gap_space"
+                    android:layout_marginStart="@dimen/view_gap_space"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/icon_googleplus"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textAllCaps="true"
+                    style="@style/MyTheme.TextBasic.White"
+                    android:text="@string/sign_in_with_google"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/lyt_currency"
+              android:paddingStart="@dimen/padding_currency_action_bar_icon"
+              android:paddingLeft="@dimen/padding_currency_action_bar_icon"
+              android:paddingRight="@dimen/padding_currency_action_bar_icon"
+              android:paddingEnd="@dimen/padding_currency_action_bar_icon"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/icon_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_currency_rectangle" />
+
+    <TextView
+        android:id="@+id/txt_currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/icon_view"
+        android:layout_alignTop="@+id/icon_view"
+        android:layout_alignRight="@+id/icon_view"
+        android:layout_alignBottom="@+id/icon_view"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+
+        android:text="USD"
+        />
+</RelativeLayout>

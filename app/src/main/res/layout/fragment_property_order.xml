@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lyt_dates"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+        <include layout="@layout/ly_dates_inner"/>
+    </LinearLayout>
+
+        <ScrollView
+            android:layout_below="@+id/lyt_dates"
+            android:layout_marginBottom="@dimen/btn_double_bottom_height"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout android:id="@+id/property_order_board"
+                      android:orientation="vertical"
+                      android:layout_marginLeft="12dp"
+                      android:layout_marginStart="12dp"
+                      android:layout_marginRight="12dp"
+                      android:layout_marginEnd="12dp"
+                      android:layout_width="match_parent"
+                      android:layout_weight="1"
+                      android:layout_height="0dp">
+
+            <LinearLayout
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:orientation="horizontal"
+                android:id="@+id/lyt_dorms_suggestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingRight="@dimen/standard_space"
+                    android:paddingStart="@dimen/standard_space"
+                    android:paddingLeft="@dimen/standard_space"
+                    android:paddingEnd="@dimen/standard_space"
+                    style="@style/MyTheme.TextBasic.Primary"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:textAllCaps="true"
+                    android:text="@string/dorms"
+                    android:layout_height="wrap_content"/>
+                
+                <View
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/gray_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_dorms_price_description"
+                android:text="@string/dorms_price_description"
+                style="@style/MyTheme.TextBasic.Primary"
+                android:paddingStart="@dimen/standard_space"
+                android:paddingLeft="@dimen/standard_space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/lyt_dorms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/lyt_private_rooms_suggestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingRight="8dp"
+                    android:paddingEnd="15dp"
+                    android:paddingStart="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    style="@style/MyTheme.TextBasic.Primary"
+                    android:layout_width="wrap_content"
+                    android:textAllCaps="true"
+                    android:text="@string/private_rooms"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/gray_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/lyt_private_rooms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/icon_moon"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="4 guests"
+                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingRight="0dp"
+                    android:paddingEnd="0dp"
+                    style="@style/MyTheme.TextBasic.Primary"
+                    android:id="@+id/txt_nights"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:paddingLeft="20dp"
+                    android:paddingStart="20dp"
+                    android:paddingRight="0dp"
+                    android:paddingEnd="0dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/icon_persons"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="4 guests"
+                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp"
+                    android:layout_gravity="center_vertical"
+                    style="@style/MyTheme.TextBasic.Primary"
+                    android:id="@+id/txt_guests"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <TextView
+                android:text="62.1$"
+                style="@style/MyTheme.TextBasic.Primary"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/txt_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_total_to_pay_now"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:textColor="@color/colorPrimary"
+            android:text="Total to be pay now"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_book_now"
+        android:layout_alignParentBottom="true"
+        android:background="@color/green_action"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="@string/book_now"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_bottom_height"
+        />
+    </RelativeLayout>
+

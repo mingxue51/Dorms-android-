@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="8dp"
+        style="@style/MyTheme.TextBasic.Primary"
+        android:id="@+id/txt_rating_type"
+        android:textAllCaps="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="?android:attr/ratingBarStyleSmall"
+        android:isIndicator="true"
+        android:stepSize="0.1"
+        android:numStars="5"/>
+</LinearLayout>

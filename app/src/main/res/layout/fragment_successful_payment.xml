@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:background="@color/explore_background"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icon_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/view_gap_space"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="@string/your_booking_confirmed"
+        android:textColor="@color/green_action"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/view_gap_space"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="@string/thank_you"
+        style="@style/MyTheme.TextBasic.Primary"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="@dimen/view_gap_space"
+        android:layout_width="match_parent"
+        style="@style/GreenButton"
+        android:text="@string/see_directions"
+        android:layout_height="@dimen/btn_action_height"/>
+
+    <RelativeLayout
+        android:layout_marginBottom="@dimen/view_gap_space"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/direction_suggestion"
+            android:gravity="bottom|center"
+            style="@style/MyTheme.TextBasic.Gray"
+            android:layout_above="@+id/btn_done"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_done"
+            android:layout_marginTop="@dimen/view_gap_space"
+            android:layout_width="match_parent"
+            android:text="@string/done"
+            android:layout_alignParentBottom="true"
+            style="@style/WhiteButton"
+            android:layout_height="@dimen/btn_action_height"/>
+    </RelativeLayout>
+</LinearLayout>

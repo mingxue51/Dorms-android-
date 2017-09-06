@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_search"
+    app:cardBackgroundColor="@color/colorFragmentSearch">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/search_header_id"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <ImageButton
+                android:id="@+id/img_magnifier"
+                android:layout_height="match_parent"
+                android:layout_width="30dp"
+                android:paddingStart="7dp"
+                android:paddingLeft="7dp"
+                android:background="@null"
+                android:src="@drawable/icon_search_white"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/search_city_name"
+                android:background="@null"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:layout_height="match_parent"
+                android:text="@string/search_welcome"
+                style="@style/MyTheme.TextBasic" />
+
+            <ImageButton
+                android:padding="10dp"
+
+                android:id="@+id/btn_current_location"
+                android:layout_width="wrap_content"
+                android:src="@drawable/icon_location_white"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="2dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/layout_search_addition_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/lyt_dates"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+                    <include layout="@layout/ly_dates_inner"/>
+            </LinearLayout>
+
+            <Button
+                android:layout_marginTop="6dp"
+                android:id="@+id/btn_search"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="8dp"
+                style="@style/GreenButton"
+                android:text="@string/search"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_action_height"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

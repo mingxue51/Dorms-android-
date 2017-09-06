@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/explore_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/img_main_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_background_1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_transparent"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/hostels_worldwide"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/view"/>
+
+    <FrameLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/search_fragment_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/txt_or"
+        android:layout_below="@+id/search_fragment_content"
+        android:layout_marginTop="-95dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/explore_grey"
+        android:text="@string/or"/>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_here_and_tonight"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/blue_action"
+        android:layout_marginBottom="14dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/txt_or"
+        android:gravity="center"
+        android:text="@string/here_and_tonight"
+        style="@style/MyTheme.TextBasic"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shadow_top_explore"
+        android:layout_height="50dp"
+        android:id="@+id/view" />
+</RelativeLayout>

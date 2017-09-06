@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:id="@+id/lyt_property_preview"
+              android:background="@color/white"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_property_preview"
+        android:layout_width="100dp"
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/tiny_view_gap_space"
+        android:layout_marginLeft="@dimen/tiny_view_gap_space"
+        android:layout_marginStart="@dimen/tiny_view_gap_space"
+        android:layout_marginEnd="@dimen/tiny_view_gap_space"
+        android:layout_marginRight="@dimen/tiny_view_gap_space"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_property_name"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="Super hostel Name of property is too long"
+            android:layout_width="match_parent"
+            style="@style/MyTheme.TextBasic.Primary"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/id_star"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon_star"/>
+
+            <TextView
+                android:id="@+id/txt_property_mark"
+                android:layout_gravity="center_vertical"
+                android:text="Good"
+                style="@style/PropertyPreviewTextMark"
+                android:layout_marginRight="@dimen/standard_space"
+                android:layout_marginEnd="@dimen/standard_space"
+                />
+
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginRight="@dimen/large_view_gap_space"
+                    android:layout_marginEnd="@dimen/large_view_gap_space"
+                    android:id="@+id/lyt_dorms"
+                    android:orientation="vertical"
+                    android:gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/price_search_result_dorms"
+                        android:textColor="@color/grey_checkable"
+                        android:textSize="@dimen/price_type_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dorms"/>
+
+                    <TextView
+                        android:id="@+id/txt_price_search_result_value_dorms"
+                        android:textColor="@color/green_action"
+                        android:textSize="@dimen/price_search_result_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$30.37"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_private"
+                    android:background="@null"
+                    android:gravity="start"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/price_search_result_private"
+                        android:layout_gravity="left"
+                        android:textColor="@color/grey_checkable"
+                        android:textSize="@dimen/price_type_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/private_rooms"/>
+
+                    <TextView
+                        android:id="@+id/txt_price_search_result_value_private"
+                        android:layout_gravity="left"
+                        android:textColor="@color/green_action"
+                        android:textSize="@dimen/price_search_result_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$30.37"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_book_now"
+            style="@style/GreenButton"
+            android:text="@string/book_now"
+            android:layout_marginTop="@dimen/tiny_view_gap_space"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_small_height"/>
+        </LinearLayout>
+</LinearLayout>

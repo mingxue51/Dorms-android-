@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:accordion="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="#e7e6e4">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <com.sentaca.android.accordion.widget.ToggleImageLabeledButton
+            android:id="@+id/foldButton"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+
+            accordion:icon_resource="@drawable/down"
+            accordion:icon_resource_off="@drawable/up"
+            android:paddingBottom="5dp" />
+
+        <!-- paddingRight added to center text correctly -->
+
+        <TextView
+            android:id="@+id/foldText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#0075ca"
+            android:textSize="15sp"
+            android:text="Section Name" />
+    </RelativeLayout>
+
+</LinearLayout>

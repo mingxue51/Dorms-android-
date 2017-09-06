@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:background="@color/gray_order"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <include layout="@layout/property_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_field_review"
+        android:id="@+id/include_header" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_field_review"
+        android:text="@string/txt_title_review"
+        android:id="@+id/txt_title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_field_review"
+        android:layout_marginLeft="@dimen/tiny_view_gap_space"
+        android:layout_marginStart="@dimen/tiny_view_gap_space"
+        android:text="19 May 2015"
+        android:id="@+id/txt_last_dade" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/name_left_margin"
+        android:layout_marginLeft="@dimen/padding_field_review"
+        android:layout_marginStart="@dimen/padding_field_review"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/header_review"
+        android:id="@+id/txt_header_review"/>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/name_left_margin"
+            android:rowCount="7"
+            android:columnCount="2"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/GridLayoutTextReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:text="@string/atmosphere"
+                />
+            <RatingBar
+                style="@style/UserReviewRatingBar"
+                android:id="@+id/atmosphere_rating_bar"
+                android:layout_column="1"
+                android:layout_row="0"
+                />
+
+            <TextView
+                style="@style/GridLayoutTextReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:text="@string/facilities"
+                />
+            <RatingBar
+                android:id="@+id/facilities_rating_bar"
+                style="@style/UserReviewRatingBar"
+                android:layout_column="1"
+                android:numStars="5"/>
+            <TextView
+                style="@style/GridLayoutTextReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:text="@string/value_txt"
+                />
+            <RatingBar
+                style="@style/UserReviewRatingBar"
+                android:id="@+id/value_rating_bar"
+                android:layout_column="1"
+                android:layout_row="3"/>
+
+            <TextView
+                style="@style/GridLayoutTextReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:text="@string/cleanliness"
+                />
+            <RatingBar
+                android:id="@+id/cleanliness_rating_bar"
+                style="@style/UserReviewRatingBar"
+                android:layout_column="1"
+                android:layout_gravity="end"
+                android:layout_row="4"/>
+
+            <TextView
+                style="@style/GridLayoutTextReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="5"
+                android:text="@string/location"
+                />
+            <RatingBar
+                android:id="@+id/location_rating_bar"
+                style="@style/UserReviewRatingBar"
+                android:layout_column="1"/>
+
+            <TextView
+                style="@style/GridLayoutTextReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="6"
+                android:text="@string/staff"
+                />
+            <RatingBar
+                android:id="@+id/staff_rating_bar"
+                style="@style/UserReviewRatingBar"
+                android:layout_column="1"
+                android:layout_row="6"/>
+        </GridLayout>
+
+        <EditText
+            android:layout_marginTop="@dimen/margin_top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/colorPrimary"
+            android:padding="@dimen/padding_field_review"
+            android:hint="@string/title_review"
+            android:id="@+id/txt_title_review" />
+
+        <EditText
+            android:layout_marginTop="@dimen/drawer_header_text_margin_top"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="100dp"
+            android:paddingLeft="@dimen/padding_field_review"
+            android:paddingStart="@dimen/padding_field_review"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/txt_review_padding"
+            android:hint="@string/hint_review_field"
+            android:id="@+id/txt_review"/>
+
+        <Button
+            android:id="@+id/btn_submit_review"
+            style="@style/GreenButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="@string/submit_review"
+            android:layout_marginTop="@dimen/standard_space"/>
+
+    </LinearLayout>
+</ScrollView>

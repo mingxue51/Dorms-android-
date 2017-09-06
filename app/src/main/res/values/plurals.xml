@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="calendar_selected_dates">
+        <item quantity="other">@string/number_nights_selected</item>
+        <item quantity="one">@string/number_night_selected</item>
+    </plurals>
+    <plurals name="guests">
+        <item quantity="other">@string/guests_other</item>
+        <item quantity="one">@string/guests_one</item>
+    </plurals>
+    <plurals name="nights">
+        <item quantity="other">@string/nights_other</item>
+        <item quantity="one">@string/nights_one</item>
+    </plurals>
+    <plurals name="overall_reviews">
+        <item quantity="other">@string/overall_reviews_other</item>
+        <item quantity="one">@string/overall_reviews_one</item>
+    </plurals>
+    <plurals name="rooms">
+        <item quantity="other">@string/rooms_other</item>
+        <item quantity="one">@string/rooms_one</item>
+    </plurals>
+
+</resources>

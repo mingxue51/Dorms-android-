@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/magnifier"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/choose_layout"
+        android:layout_marginTop="@dimen/layout_settings_margin"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/SettingsFieldTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_language"
+            android:id="@+id/txt_lang_titl" />
+
+        <TextView
+            style="@style/SettingsFieldText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_settings"
+            android:id="@+id/txt_lang_select"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/txt_lang_titl"
+            android:layout_toEndOf="@+id/txt_lang_titl" />
+
+        <TextView
+            style="@style/SettingsFieldTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_currency"
+            android:id="@+id/txt_curr_title"
+            android:layout_below="@+id/txt_lang_titl"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/txt_lang_select"
+            android:layout_toStartOf="@+id/txt_lang_select" />
+
+        <TextView
+            style="@style/SettingsFieldText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_currency"
+            android:layout_below="@+id/txt_lang_titl"
+            android:layout_toRightOf="@+id/txt_lang_titl"
+            android:layout_alignRight="@+id/txt_lang_select"
+            android:layout_alignEnd="@+id/txt_lang_select" />
+
+        <TextView
+            style="@style/SettingsFieldTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_distance"
+            android:id="@+id/title_distance"
+            android:layout_below="@+id/txt_curr_title"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/txt_curr_title"
+            android:layout_alignEnd="@+id/txt_curr_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/settings_choose_bg"
+            android:text="@string/kilometers"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:id="@+id/kilometers_choose"
+            android:layout_alignTop="@+id/txt_miles_choose"
+            android:layout_toRightOf="@+id/title_distance"
+            android:layout_toEndOf="@+id/title_distance" />
+
+        <TextView
+            style="@style/SettingsFieldText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_miles"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:id="@+id/txt_miles_choose"
+            android:layout_alignTop="@+id/title_distance"
+            android:layout_toRightOf="@+id/kilometers_choose"
+            android:layout_toEndOf="@+id/kilometers_choose"
+            android:layout_marginStart="29dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_below="@+id/choose_layout"
+        android:layout_marginTop="@dimen/layout_settings_margin"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/SettingsFieldTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notification"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox"
+            android:checked="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</RelativeLayout>
